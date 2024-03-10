@@ -16,7 +16,7 @@
   navigator.geolocation.getCurrentPosition(position => {
   const { latitude, longitude } = position.coords;
   // Show a map centered at latitude / longitude.
-  map.innerHTML = '<iframe width="1200" height="600" src="https://maps.google.com/maps?q='+ latitude +','+longitude+'&amp;z=15&amp;output=embed"></ifram>';
+  map.innerHTML = '<iframe width="100vw" height="100vh" src="https://maps.google.com/maps?q='+ latitude +','+longitude+'&amp;z=15&amp;output=embed"></ifram>';
 
 
 });
